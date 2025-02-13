@@ -53,6 +53,10 @@ button {
     color: white;
 }
 
+.header_nav a:hover{
+    transform: scale(1.1);
+}
+
 .btns {
     display: flex;
     align-items: center;
@@ -122,6 +126,11 @@ button {
     padding: 18px 32px;
     border-radius: 10px;
     border: none;
+}
+
+.banner_it button:hover{
+    background-color: #111;
+    color: white;
 }
 
 /* about company */
@@ -196,6 +205,10 @@ button {
     background-color: #111;
     padding: 18px 30px;
     border-radius: 10px;
+}
+
+.home_cat:hover{
+    background-color: #494949;
 }
 
 .home_catalog_items {
@@ -282,6 +295,7 @@ button {
     display: flex;
     gap: 30px;
     position: relative;
+
 }
 
 .akchi_opis h3 {
@@ -307,6 +321,7 @@ button {
     border-radius: 10px;
     background-color: #BEBDBC;
     position: absolute;
+    cursor: pointer;
 }
 
 .right {
@@ -320,6 +335,7 @@ button {
     border-radius: 10px;
     background-color: #BEBDBC;
     position: absolute;
+    cursor: pointer;
 }
 
 /* ipoteka */
@@ -329,6 +345,10 @@ button {
 
 .ipoteka_form {
     margin-top: 70px;
+}
+
+.content form button:hover{
+    background-color: #383838;
 }
 
 .ipoteka_form p {
@@ -363,6 +383,11 @@ button {
     border-radius: 10px;
     margin-bottom: 15px;
     font-size: 16px;
+}
+
+.ipoteka_form button:hover{
+    background-color: #595959;
+    border-color: #595959;
 }
 
 .ipot_fir input {
@@ -653,6 +678,7 @@ span {
     color: #fff;
 }
 
+
 .modal-label {
     position: relative;
     cursor: pointer;
@@ -757,6 +783,11 @@ span {
     font-size: 18px;
 }
 
+.question_form button:hover{
+    background-color: #595959;
+    border-color: #595959;
+}
+
 /* catalog */
 .filter p {
     font-size: 20px;
@@ -841,6 +872,11 @@ span {
     background-color: black;
     color: white;
     padding: 18px 40px;
+}
+
+.opis_card button:hover{
+    background-color: #595959;
+    border-color: #595959;
 }
 
 .img_bot {
@@ -1082,6 +1118,10 @@ footer {
     color: white;
     font-size: 16px;
     font-weight: 300;
+}
+
+.fot_nav nav a:hover{
+    transform: translateX(2.1%);
 }
 
 .graph {
