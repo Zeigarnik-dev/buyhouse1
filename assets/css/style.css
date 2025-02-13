@@ -693,7 +693,7 @@ span {
 
 .modal .content {
     position: absolute;
-    width: 41.6%;
+/*     width: 41.6%; */
     height: 400px;
     max-height: 70%;
     top: 15.2%;
