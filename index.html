@@ -16,53 +16,57 @@
 
 <body>
     <header>
-        <div class="logo_nav_btns container">
-            <a href="?"><img src="assets/img/header/logo.svg" alt=""></a>
-            <nav class="header_nav">
+        <input type="checkbox" id="burger">
+        <label for="burger">
+            <span class="burg"></span>
+        </label>
+        <nav class="header_nav">
+            <div class="logo_nav_btns container">
+                <a href="?"><img src="assets/img/header/logo.svg" alt=""></a>
                 <a href="index.html">Главная</a>
                 <a href="incl/pages/catalog.html">Каталог</a>
                 <a href="incl/pages/about.html">О нас</a>
                 <a href="incl/pages/contact.html">Контакты</a>
                 <a href="incl/pages/docs.html">Документация</a>
-            </nav>
-            <div class="card">
-                <div class="content">
-                    <label class="modal-open modal-label" for="modal-open">
-                        <p>Войти</p>
-                    </label>
-                    <input type="radio" name="modal" value="open" id="modal-open" class="modal-radio" />
-                    <div class="modal">
-                        <label class="modal-label overlay">
-                            <input type="radio" name="modal" value="close" class="modal-radio" />
+                <div class="card">
+                    <div class="content">
+                        <label class="modal-open modal-label" for="modal-open">
+                            <p>Войти</p>
                         </label>
-                        <div class="content">
-                            <div class="top">
-                                <div class="auto_reg">
-                                    <a href="/">Войти</a>
-                                    <a href="/">Регистрация</a>
-                                    <label class="modal-label close-btn">
-                                        <input type="radio" name="modal" value="close" class="modal-radio" />
-                                    </label>
+                        <input type="radio" name="modal" value="open" id="modal-open" class="modal-radio" />
+                        <div class="modal">
+                            <label class="modal-label overlay">
+                                <input type="radio" name="modal" value="close" class="modal-radio" />
+                            </label>
+                            <div class="content">
+                                <div class="top">
+                                    <div class="auto_reg">
+                                        <a href="/">Войти</a>
+                                        <a href="">Регистрация</a>
+                                        <label class="modal-label close-btn">
+                                            <input type="radio" name="modal" value="close" class="modal-radio" />
+                                        </label>
+                                    </div>
+                                    <form>
+                                        <label>Почта</label>
+                                        <input type="email" placeholder="Ваша почта">
+                                        <label>Пароль</label>
+                                        <input type="password" placeholder="Ваш пароль">
+                                        <button>Войти</button>
+                                    </form>
                                 </div>
-                                <form>
-                                    <label>Почта</label>
-                                    <input type="email" placeholder="Ваша почта">
-                                    <label>Пароль</label>
-                                    <input type="password" placeholder="Ваш пароль">
-                                    <button>Войти</button>
-                                </form>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="btns">
+                    <button class="btn1">Заказать звонок</button>
+                    <a href=""><img src="assets/img/header/basc.svg" alt=""></a>
+                    <a href=""><img src="assets/img/header/order.svg" alt=""></a>
+                    <a href="incl/pages/profile.html"><img src="assets/img/header/profile.svg" alt=""></a>
+                </div>
             </div>
-            <div class="btns">
-                <button class="btn1">Заказать звонок</button>
-                <a href=""><img src="assets/img/header/basc.svg" alt=""></a>
-                <a href=""><img src="assets/img/header/order.svg" alt=""></a>
-                <a href="incl/pages/profile.html"><img src="assets/img/header/profile.svg" alt=""></a>
-            </div>
-        </div>
+        </nav>
     </header>
     <!-- banner -->
     <div class="banner">
@@ -235,6 +239,7 @@
                 </div>
                 <div class="right"><img src="assets/img/akchi/right.png" alt=""></div>
             </div>
+
         </div>
     </div>
     <!-- ipoteka -->
@@ -424,26 +429,27 @@
                 <img src="assets/img/header/logo.svg" alt="">
                 <p>© Все права<br> защищены, 2025</p>
             </div>
-            <div class="fot_nav">
-                <h3>МЕНЮ</h3>
-                <nav>
-                    <a href="?">Главная</a>
-                    <a href="incl/pages/catalog.html">Каталог</a>
-                    <a href="incl/pages/about.html">О нас</a>
-                    <a href="incl/pages/contact.html">Контакты</a>
-                    <a href="incl/pages/docs.html">Документация</a>
-                </nav>
-            </div>
-            <div class="graph">
-                <h3>ГРАФИК РАБОТЫ</h3>
-                <p>ПН-ПТ с 10:00 до 19:00<br>Суббота с 10:00 до 15:00<br>Воскресенье с 10:00 до 15:00</p>
-            </div>
-            <div class="cont">
-                <h3>КОНТАКТЫ</h3>
-                <p>Россия, г. Казань, ул. Космонавтов, 57в<br>
-                    <a href="tel:+7(987)-345-55-45">+7(987)-345-55-45</a>
-                </p>
-            </div>
+                <div class="fot_nav">
+                    <h3>МЕНЮ</h3>
+                    <nav>
+                        <a href="?">Главная</a>
+                        <a href="incl/pages/catalog.html">Каталог</a>
+                        <a href="incl/pages/about.html">О нас</a>
+                        <a href="incl/pages/contact.html">Контакты</a>
+                        <a href="incl/pages/docs.html">Документация</a>
+                    </nav>
+                </div>
+                <div class="graph">
+                    <h3>ГРАФИК РАБОТЫ</h3>
+                    <p>ПН-ПТ с 10:00 до 19:00<br>Суббота с 10:00 до 15:00<br>Воскресенье с 10:00 до 15:00</p>
+                </div>
+                <div class="cont">
+                    <h3>КОНТАКТЫ</h3>
+                    <p>Россия, г. Казань, ул. Космонавтов, 57в<br>
+                        <a href="tel:+7(987)-345-55-45">+7(987)-345-55-45</a>
+                    </p>
+                </div>
+
         </div>
     </footer>
     <script>
